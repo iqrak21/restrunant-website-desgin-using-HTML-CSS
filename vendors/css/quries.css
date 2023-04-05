@@ -1,0 +1,181 @@
+/* Big tablet to 1200px (widths smaller than the 1140px) */
+
+@media only screen and (max-width:1200px) {
+   .hero-text-box {
+      width: 100%;
+      padding: 0 2%;
+   }
+
+   .row {
+      padding: 0 4%;
+   }
+}
+
+/* Small tablet to big tablet from 768 to 1023 */
+
+@media only screen and (max-width:1023px) {
+   body {
+      font-size: 18px;
+   }
+
+   .row {
+      padding: 0 54% 0 2%;
+   }
+
+   section {
+      padding: 60px 0;
+   }
+
+   .feature-section .long-copy {
+      width: 90%;
+      margin-left: 5%;
+   }
+
+   .steps-box {
+      margin-top: 10px;
+   }
+
+   .steps-box:last-child {
+      margin-top: 10px;
+   }
+
+   .work-steps {
+      margin-bottom: 40px;
+   }
+
+   .work-steps:last-of-type {
+      margin-bottom: 60px;
+   }
+
+   .app-screen {
+      width: 50%;
+   }
+
+   .icon-small {
+      width: 17px;
+      margin-right: 5PX;
+   }
+
+   .city-feature {
+      font-size: 90%;
+   }
+
+   .plan-box {
+      width: 100%;
+      margin-left: 0%;
+   }
+
+   .plan-price {
+      font-size: 250%;
+   }
+
+   .contact-form {
+      width: 90%;
+   }
+
+   label {
+      margin-left: 15%;
+   }
+
+   h1 {
+      font-size: 180%;
+   }
+
+   h2 {
+      font-size: 150%;
+   }
+}
+
+
+/* Small phone to small tablet from 481 to 767 */
+
+@media only screen and (max-width:767px) {
+   body {
+      font-size: 16px;
+   }
+
+   section {
+      padding: 30px 0;
+   }
+
+   .row {
+      padding: 0 148% 0 2%;
+   }
+
+   .hero-text-box {
+      padding: 0 4%;
+   }
+
+   .col {
+      width: 100%;
+      margin: 0 0 4% 0;
+   }
+
+   .nav-links {
+      display: none;
+   }
+
+   .long-copy {
+      width: 100%;
+      margin-left: 0%;
+   }
+
+   h1 {
+      font-size: 180%;
+   }
+
+   h2 {
+      font-size: 150%;
+   }
+
+   .app-screen {
+      width: 40%;
+      margin-right: 25%;
+   }
+
+   .work-steps:first-child {
+      text-align: center;
+   }
+
+   .work-steps div {
+      height: 40px;
+      width: 40px;
+      margin-right: 15px;
+      padding: 4px;
+      font-size: 120%;
+   }
+
+   .work-steps {
+      margin-bottom: 20px;
+   }
+
+   .work-steps:last-of-type {
+      margin-bottom: 20px;
+   }
+
+   h3,
+   .city-feature {
+      text-align: center;
+   }
+
+   .big-icon,
+   .plan-price,
+   .plan-price-meal {
+      text-align: center;
+   }
+
+   .footer-nav {
+      margin-left: 15%;
+   }
+
+   .social-links {
+      margin-right: 35%;
+   }
+
+}
+
+
+
+/* Small phone from 0 to 480 */
+
+@media only screen and (max-width:480px) {}
